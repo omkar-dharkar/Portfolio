@@ -181,7 +181,7 @@ document.querySelector('.download-resume').addEventListener('click', (e) => {
     
     // Create a temporary download link
     const link = document.createElement('a');
-    link.href = 'dist\\assets\\Docs\\Omkar_Dharkar_Resume.pdf'; // Replace with actual resume URL
+    link.href = 'dist\assets\Docs\Omkar_Dharkar_Resume.pdf'; // Replace with actual resume URL
     link.download = 'Omkar_Dharkar_Resume.pdf';
     link.style.display = 'none';
     
