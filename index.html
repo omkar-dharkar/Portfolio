@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar Dharkar - Data. Systems. Insight.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">OD</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <span><!-- placeholder --> </span>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-name">Omkar Dharkar</h1>
+                    <p class="hero-tagline">Data. Systems. Insight.</p>
+                    <p class="hero-description">
+                        Full-stack developer transitioning to data science. Building intelligent systems that solve real-world problems through data-driven insights.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn-primary">View Work</a>
+                        <a href="#contact" class="btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a 22-year-old technologist from India, bridging the gap between robust software engineering and intelligent data systems. Currently preparing for my MS in Applied Data Science at Clarkson University this fall.
+                    </p>
+                    <p>
+                        My journey spans from building production-ready full-stack applications to architecting real-time data pipelines. I've developed CodeForge, a comprehensive code execution platform, and engineered SEO-optimized web solutions for enterprise clients at Vibhuchem Pvt. Ltd.
+                    </p>
+                    <p>
+                        What drives me is the potential of data to solve complex, real-world challenges. Whether it's building scalable systems with Kafka and Spark or crafting intuitive user experiences, I'm passionate about creating technology that makes a meaningful impact.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Full-Stack Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of work that showcases my technical range and problem-solving approach</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">NLP for Disaster Detection</h3>
+                        <div class="project-links">
+                            <a href="https://cerulean-cactus-bfa255.netlify.app/" class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Trained a text classification model to detect disaster-related tweets in real time using NLP techniques and deep learning.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Twitter API</span>
+                        <span class="tag">TensorFlow / PyTorch</span>
+                        <span class="tag">NLTK</span>
+                        <span class="tag">Dashboard</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Real-Time Analytics Dashboard</h3>
+                        <div class="project-links">
+                            <a href="https://steady-arithmetic-aa9258.netlify.app/" class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Scalable data pipeline processing millions of events using Kafka and Spark for real-time insights
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Apache Kafka</span>
+                        <span class="tag">Spark</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Enterprise SEO Platform</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        SEO-optimized web application improving client organic traffic by 40% with advanced analytics
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">SEO</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Mobile Health Tracker</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Cross-platform mobile app with ML-powered health insights and personalized recommendations
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React Native</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>Fall 2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">MS in Applied Data Science</h3>
+                        <p class="timeline-company">Clarkson University</p>
+                        <p class="timeline-description">
+                            Pursuing advanced studies in machine learning, statistical modeling, and big data analytics to deepen expertise in data-driven decision making.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2024 - 2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title"> Post Graduate Certificate Programme in Data Science & AI</h3>
+                        <p class="timeline-company">International Institute of Information Technology, Bangalore</p>
+                        <p class="timeline-description">
+                          Pursued advanced studies in AI, Machine Learning, Data Science, and Data Engineering
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2023 - 2024</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Software Development Intern</h3>
+                        <p class="timeline-company">Vibhuchem Pvt. Ltd.</p>
+                        <p class="timeline-description">
+                            Developed SEO-optimized web applications and enhanced system performance. Built scalable solutions that improved client engagement and search rankings.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2021 - 2024</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">BE in Computer Science</h3>
+                        <p class="timeline-company">Parul University, Vadodara</p>
+                        <p class="timeline-description">
+                            Comprehensive computer science education with focus on algorithms, data structures, and software engineering principles. Built foundation for full-stack development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2022 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Freelance Developer</h3>
+                        <p class="timeline-company">Independent</p>
+                        <p class="timeline-description">
+                            Delivering custom web and mobile solutions for diverse clients. Specialized in React, Node.js, and data pipeline development for modern businesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Apache Kafka</span>
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2 class="contact-title">Let's Build Something Together</h2>
+                    <p class="contact-description">
+                        Always interested in discussing data science opportunities, innovative projects, or potential collaborations.
+                    </p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:dharkaromkar777@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://linkedin.com/in/omkar-dharkar" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/omkar-dharkar" target="_blank" class="contact-link">
+                        <span class="contact-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="contact-link download-resume">
+                        <span class="contact-icon">📄</span>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-footer">
+                <p>&copy; 2025 Omkar Dharkar. Crafted with care.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
